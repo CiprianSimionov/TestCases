@@ -7,7 +7,7 @@ Below are some samples created for my previous projects.
 
 *Description*: Check if the login works when a customer uses incorrect user/pass
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Go to https://www.gotica.ro/logare.html
 2. Add incorrect user and password
 3. Press the "Login" button
