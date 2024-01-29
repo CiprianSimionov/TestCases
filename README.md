@@ -12,7 +12,7 @@ Below are some samples created for my previous projects.
 2. Add incorrect user and password
 3. Press the "Login" button
 
-*Expected Result*: User shouldn't be able to login and it gets an error message.
+**Expected Result**: User shouldn't be able to login and it gets an error message.
 
 *Test Data*: User: cipriabbath@gmail.com & Pass: come1234
 
@@ -22,12 +22,12 @@ Below are some samples created for my previous projects.
 
 *Description*: Check if the login works when a customer uses correct user/pass
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Go to https://www.gotica.ro/logare.html
 2. Add correct user and password
 3. Press the "Login" button
 
-*Expected Result*: User should be able to login.
+**Expected Result**: User should be able to login.
 
 *Test Data*: User: cipriabbath@gmail.com & Pass: comerace1234
 
@@ -37,11 +37,11 @@ Below are some samples created for my previous projects.
 
 *Description*: Verify if "Remember me" checkbox works when a customer checks it
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Go to https://www.gotica.ro/logare.html
 2. Check "remember me" checkbox before login with valid credentials
 
-*Expected Result*: User should be able to login.
+**Expected Result**: User should be able to login.
 
 *Test Data*: User: cipriabbath@gmail.com & Pass: comerace1234
 
@@ -51,12 +51,12 @@ Below are some samples created for my previous projects.
 
 *Description*: search for an existing product
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Access https://www.gotica.ro/
 2. search for an existing product
 3. Press "search" button
 
-*Expected Result*: Searched product should be returned and listed
+**Expected Result**: Searched product should be returned and listed
 
 *Test Data*: product name: "cana jingle beer"
 
@@ -66,11 +66,11 @@ Below are some samples created for my previous projects.
 
 *Description*: Verify if for entered keyword displayed appropriate options
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Access https://www.gotica.ro/
 2. Type first 4 letters from an existing product
 
-*Expected Result*: A list of searched products should be displayed
+**Expected Result**: A list of searched products should be displayed
 
 *Test Data*: product name: "nano" from "hanorac"
 
@@ -80,12 +80,12 @@ Below are some samples created for my previous projects.
 
 *Description*: Search for a product that is not available in the inventory
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Access https://www.gotica.ro/
 2. search for an inexisting product
 3. Press "search" button
 
-*Expected Result*: Search results should display “Item not found." message
+**Expected Result**: Search results should display “Item not found." message
 
 *Test Data*: product name: "frigider"
 
@@ -95,12 +95,12 @@ Below are some samples created for my previous projects.
 
 *Description*: Access main cart with added items
 
-*Steps to reproduce*:
+**Steps to reproduce**:
 1. Access https://www.gotica.ro/
 2. Select one item from shopping cart with quantity different than 0
 3. Set item quantity to 0
 
-*Expected Result*: The item should be removed from cart.
+**Expected Result**: The item should be removed from cart.
 	             The cart total price should be updated.
 
 -----------------------------------------------------------------------
